@@ -19,7 +19,7 @@ app.use(express.static('public'));
 app.use(cors({
   origin: ["http://localhost:3000", "https://simple-jet.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
+  credentials: true,
 }));
 
 app.use(cookieParser());
