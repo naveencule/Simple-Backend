@@ -1,8 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const UserModel = require('./models/Usermodel')
-const PostModel = require('./models/PostModel')
+// const UserModel = require('./models/Usermodel')
+// const PostModel = require('./models/PostModel')
+const UserModel = require('./models/UserModel');
+const PostModel = require('./models/PostModel');
 const bcrypt = require('bcrypt')
 const cookieParser = require('cookie-parser')
 const jwt = require('jsonwebtoken')
